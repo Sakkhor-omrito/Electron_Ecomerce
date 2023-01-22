@@ -192,9 +192,12 @@ padding:20px 0;
     width: 15px;
     margin:0 5px;
     border-radius: 50%;
-    background-color: var(--secondary-color);
+    background-color:transparent;
     color: transparent;
-    
+    border: 1px solid #ADADAD;
+}
+.slick-dots .slick-active button{
+    background-color:var(--secondary-color);
 }
 .hero_right img{
     width: 100%;
